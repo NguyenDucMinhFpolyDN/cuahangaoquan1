@@ -1,0 +1,63 @@
+{
+    "categories": [
+      { "id": 1, "name": "Trang Chủ"},
+      { "id": 2, "name": "Sản phẩm"},
+      { "id": 3, "name": "Giới thiệu"},
+      { "id": 4, "name": "Đăng nhập/ đăng ký"}
+    ],
+    "products": [
+        { "id": 2,
+            "name": "PASTEL TEE",
+            "images": "https://product.hstatic.net/200000031420/product/tee2_b2e677974ac74e679d932499afbb8947_master.jpg",
+            "price": 99000,
+            "detail":"HEYYOU - THƯƠNG HIỆU QUỐC DÂN !!!* Tên sản phẩm: JEEP WHITE TEE* Màu sắc: White* Kích thước: Size M | Size L | Size XL.* Chất liệu: 100% Cotton co giãn 4 chiều được đặt dệt riêng theo tiêu chuẩn của công ty.* Kĩ thuật in: Sản phẩm được sử dụng...",
+            "cat_id": 1
+        },
+        { "id": 3,
+            "name": "PASTEL SWEATER",
+            "images": "https://product.hstatic.net/200000031420/product/img_5022_2e6aa42bcfa0416391f14942c0b9cfc6_master.jpg",
+            "price": 199000,
+            "detail":"HEYYOU - THƯƠNG HIỆU QUỐC DÂN !!!* Tên sản phẩm: JEEP WHITE TEE* Màu sắc: White* Kích thước: Size M  | Size L  | Size XL.  * Chất liệu: 100% Cotton co giãn 4 chiều được đặt dệt riêng theo tiêu chuẩn của công ty.* Kĩ thuật in: Sản phẩm được sử dụng...",
+            "cat_id": 2
+        },
+        { "id": 4,
+            "name": "JEEP WHITE TEE",
+            "images": "https://product.hstatic.net/200000031420/product/img_5022_2e6aa42bcfa0416391f14942c0b9cfc6_master.jpg",
+            "price": 138000,
+            "detail":"HEYYOU - THƯƠNG HIỆU QUỐC DÂN !!!* Tên sản phẩm: JEEP WHITE TEE* Màu sắc: White* Kích thước: Size M  | Size L  | Size XL.  * Chất liệu: 100% Cotton co giãn 4 chiều được đặt dệt riêng theo tiêu chuẩn của công ty.* Kĩ thuật in: Sản phẩm được sử dụng...",
+            "cat_id": 3
+        },
+        { "id": 5,
+            "name": "JEEP WHITE TEE",
+            "images": "https://product.hstatic.net/200000031420/product/black_56c72b5166344195a0680b8ec067600e_master.jpg",
+            "price": 168000,
+            "detail":"HEYYOU - THƯƠNG HIỆU QUỐC DÂN !!!* Tên sản phẩm: JEEP WHITE TEE* Màu sắc: White* Kích thước: Size M  | Size L  | Size XL.  * Chất liệu: 100% Cotton co giãn 4 chiều được đặt dệt riêng theo tiêu chuẩn của công ty.* Kĩ thuật in: Sản phẩm được sử dụng...",
+            "cat_id": 4
+        }
+    ],
+    "orders":[
+        {"id": 1,
+        "customer_name": "Nguyễn Đức Minh",
+        "customer_address": "79/3 Dũng Sĩ Thanh Khê",
+        "customer_email":"nguyenducminh010102@gmail.com",
+        "customer_phone":"0392664416",
+        "create_date":"2022-02-17",
+        "status":"Thành công"
+        }
+    ],
+    "order_details":[
+        {"id": 1,
+        "order_id": 1,
+        "product_id": 5,
+        "quantity": 2,
+        "until_price": 3000000
+        },
+        {"id": 2,
+            "order_id": 1,
+            "product_id": 6,
+            "quantity": 1,
+            "until_price": 6000000
+        }
+    ]
+  }
+  
